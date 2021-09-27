@@ -44,7 +44,7 @@ const diplayPokemon = (pokemon) => {
     console.log(pokemon);
     const pokemonHTMLString = pokemon.map( 
         (pokeman) => {
-            const html = '<li class="card"><img class="card-image" src="' + pokeman.image + '"/><h2 class="card-title">' + pokeman.name + '</h2><p class="card-subtitle">Type : ' + pokeman.type + '</p></li>';
+            const html = '<li class="card"><img class="card-image" src="' + pokeman.image + '"/><h2 class="card-title">' + pokeman.name + '</h2><p class="card-subtitle">' + pokeman.type + '</p></li>';
             
             return html;
         }
